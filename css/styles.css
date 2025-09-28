@@ -64,11 +64,9 @@ a {
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
-
-  /* line-height: 24px; */
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
 }
 /*Advantages section*/
@@ -115,25 +113,29 @@ a {
 .nav-link:focus,
 .address-link:hover,
 .address-link:focus,
-.title-btn {
+.title-btn:hover,
+.title-btn:focus {
   color: #404bbf;
 }
 /*team-page*/
 .team-page {
+    text-transform:capitalize
   background-color: #f4f4fd;
 }
 .team-list {
   font-size: 36px;
-  /* line-height: 40px; */
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;
 }
 /*Portfoli list*/
 .portfolio {
   font-weight: 700;
   font-size: 36px;
+  text-transform: capitalize
 
   /* line-height: 40px; */
   line-height: 111%;
