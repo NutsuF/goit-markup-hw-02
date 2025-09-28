@@ -55,6 +55,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  text-transform: capitalize; /* ← додали */
 }
 
 .nav-link {
@@ -72,6 +73,9 @@ a {
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+
+.title-btn {
   cursor: pointer;
 }
 .title-btn:hover,
