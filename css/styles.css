@@ -101,9 +101,12 @@ a {
 }
 
 /*Team section*/
-.page-team {
+.team {
   background-color: #f4f4fd;
   text-transform: capitalize;
+}
+.team-icon {
+  background-color: #ffffff;
 }
 
 .team-list {
